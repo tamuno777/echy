@@ -1,0 +1,12 @@
+.glow {
+  border-radius: 50px;
+  width: 80px;
+  height: 10px;
+  background: linear-gradient(
+    266deg,
+    rgba(234, 76, 137, 0.81) 11.99%,
+    #4f3cc9 50.81%,
+    #f2cb4b 71.34%,
+    #bf7957 101.24%
+  );
+}

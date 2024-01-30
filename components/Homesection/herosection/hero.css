@@ -1,0 +1,61 @@
+.ui-block {
+  background: #ea4c89;
+  width: 138.07px;
+  color: #fff;
+  transform: rotate(-16.152deg);
+}
+.graphicsDesigner-block {
+  width: 142.155px;
+  transform: rotate(1.307deg);
+  background: #f2cb4b;
+  color: #191919;
+}
+.MotionDesigners-block{
+width: 141.534px;
+transform: rotate(20.181deg);
+background: #FFA274;
+color: #191919;
+
+}
+.frontend-block{
+background: #4BB7BF;
+width: 133.168px;
+color: #fff;
+transform: rotate(-19.076deg);
+}
+.illustrator-block {
+  background: #4f3cc9;
+  color: #fff;
+ width:  138.07px;
+  transform: rotate(-10.653deg);
+}
+.second-block{
+    position: absolute;
+    right: 13%;
+    top: 37.5%;
+}
+.illustration-div{
+position: absolute;
+right: 0;
+top: 20%;
+}
+.illustration-div img{
+   position: absolute;
+   bottom: 100%;
+   left: 30%;
+}
+.blocks {
+  gap: 8.17px;
+  padding: 13.072px 8.17px;
+  border-radius: 81.698px;
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  flex: 1 0 0;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 13.072px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138.125%; /* 18.055px */
+}

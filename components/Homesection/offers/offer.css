@@ -1,0 +1,22 @@
+@media (max-width: 750px) {
+  .offer-container h1 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+  .offer-container h2 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+  }
+  .offer-container p {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+  }
+  .offer-container img {
+    width: 40px;
+    height: 40px;
+  }
+}

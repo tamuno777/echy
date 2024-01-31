@@ -1,11 +1,12 @@
 import React from "react";
 import offerData from "./offersData";
 import Image from "next/image";
+import "./offer.css"
 
 const Offer = () => {
   return (
-    <div className="py-5 flex flex-col justify-center px-10 gap-10">
-      <h1 className="flex flex-wraps text-gray-900 text-lexend text-5xl font-normal font-semibold justify-center">
+    <div className="py-5 flex flex-col justify-center px-5 lg:px-10 gap-10 offer-container">
+      <h1 className="flex flex-wraps text-gray-900 text-lexend text-5xl font-normal font-semibold justify-center ">
         Here’s to what makes us special{" "}
       </h1>
       <div className="pb-10">

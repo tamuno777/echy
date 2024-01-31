@@ -10,3 +10,34 @@
     #bf7957 101.24%
   );
 }
+.sticker {
+  @media (max-width: 640px) {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .project-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-content h1 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .project-content p {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .glow {
+    display: block;
+    margin: 0 auto;
+  }
+}

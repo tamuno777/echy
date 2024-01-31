@@ -1,18 +1,26 @@
-import { logo } from "@/assets";
+import {
+  facebookicon,
+  googleicon,
+  instaicon,
+  logo,
+  twittericon,
+} from "@/assets";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
+import "./fotter.css"
 const Footer = () => {
   return (
-    <div className="mx-10 py-12 flex justify-between" style={{
-        borderTop:"1px solid #E8E8E8"
-    }}>
+    <div
+      className="lg:mx-10 mx-5 py-12 flex footer-container justify-between"
+      style={{
+        borderTop: "1px solid #E8E8E8",
+      }}
+    >
       <div
-        className="flex gap-10"
+        className="flex gap-10 hello"
         style={{
           alignItems: "flex-end",
-          
         }}
       >
         <Image src={logo} alt="echy logo" />
@@ -20,12 +28,26 @@ const Footer = () => {
           The community best for you
         </p>
       </div>
-      <div>
+      <div className="flex flex-col gap-3 footer-content" style={{
+          alignItems: "flex-end",
+        }}>
         <div className="flex gap-3">
-          <Link href="#"> goo</Link>
-          <Link href="#"> fac</Link>
-          <Link href="#"> twi</Link>
-          <Link href="#"> ins</Link>
+          <Link href="#">
+            {" "}
+            <Image src={googleicon} alt="echy logo" width={40} />
+          </Link>
+          <Link href="#">
+            {" "}
+            <Image src={facebookicon} alt="echy logo" width={40} />
+          </Link>
+          <Link href="#">
+            {" "}
+            <Image src={twittericon} alt="echy logo" width={40} />
+          </Link>
+          <Link href="#">
+            {" "}
+            <Image src={instaicon} alt="echy logo" width={40}/>
+          </Link>
         </div>
         <p
           className='"flex text-black  text-base text-left '

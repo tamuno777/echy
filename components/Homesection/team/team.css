@@ -1,0 +1,80 @@
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 1px solid #626262;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+
+.activeDot {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border: 1px solid #626262;
+  border-radius: 50%;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.prevButton,
+.nextButton {
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+
+.prevButton:hover,
+.nextButton:hover {
+  background-color: #f2f2f2;
+}
+
+.dot.activeDot {
+  transform: scale(1.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.prevButton.active,
+.nextButton.active {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 750px) {
+  .team-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .team-container h2 {
+    font-size: 24px;
+    display: flex;
+  }
+  .admin-next {
+    display: none;
+  }
+
+  .team-container p {
+    font-size: 13px;
+    display: flex;
+  }
+  .glow {
+    display: block;
+    margin: 0 auto;
+  }
+}

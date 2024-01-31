@@ -10,39 +10,38 @@
   background: #f2cb4b;
   color: #191919;
 }
-.MotionDesigners-block{
-width: 141.534px;
-transform: rotate(20.181deg);
-background: #FFA274;
-color: #191919;
-
+.MotionDesigners-block {
+  width: 141.534px;
+  transform: rotate(20.181deg);
+  background: #ffa274;
+  color: #191919;
 }
-.frontend-block{
-background: #4BB7BF;
-width: 133.168px;
-color: #fff;
-transform: rotate(-19.076deg);
+.frontend-block {
+  background: #4bb7bf;
+  width: 133.168px;
+  color: #fff;
+  transform: rotate(-19.076deg);
 }
 .illustrator-block {
   background: #4f3cc9;
   color: #fff;
- width:  138.07px;
+  width: 138.07px;
   transform: rotate(-10.653deg);
 }
-.second-block{
-    position: absolute;
-    right: 13%;
-    top: 37.5%;
+.second-block {
+  position: absolute;
+  right: 13%;
+  top: 37.5%;
 }
-.illustration-div{
-position: absolute;
-right: 0;
-top: 20%;
+.illustration-div {
+  position: absolute;
+  right: 0;
+  top: 20%;
 }
-.illustration-div img{
-   position: absolute;
-   bottom: 100%;
-   left: 30%;
+.illustration-div img {
+  position: absolute;
+  bottom: 100%;
+  left: 30%;
 }
 .blocks {
   gap: 8.17px;
@@ -58,4 +57,30 @@ top: 20%;
   font-style: normal;
   font-weight: 400;
   line-height: 138.125%; /* 18.055px */
+}
+.courses {
+  @media (max-width: 750px) {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .hero-img {
+    width: 100%;
+  }
+  .hero-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    gap: 10px;
+  }
+  .hero-container h1 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+  .hero-container p {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+  }
 }

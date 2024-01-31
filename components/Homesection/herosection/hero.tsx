@@ -26,7 +26,7 @@ const HeroSection = () => {
           shape and innovation knows no limits.
         </p>
         <div
-          className="w-[70%] flex my-5 courses"
+          className="w-[70%] flex my-5 courses hidden sm:hidden md:inline"
           style={{ position: "relative" }}
         >
           <div

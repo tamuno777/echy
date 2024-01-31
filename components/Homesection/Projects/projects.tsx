@@ -49,7 +49,7 @@ const Projects = () => {
             </Link>
           </p>
         </div>
-        <div className="w-[5%] sticker">
+        <div className="w-[5%] sticker hidden sm:hidden md:inline">
           <Image src={sticker} alt="projects" />
         </div>
       </div>

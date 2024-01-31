@@ -65,7 +65,7 @@ const Team: React.FC<CarouselProps> = ({
           team is ready to help.
         </p>
         <p
-          className="mt-3 admin-next rounded-full text-center btn  py-3 px-5 "
+          className="mt-3 admin-next rounded-full text-center btn  py-3 px-5 hidden sm:hidden md:inline"
           style={{
             border: "1px solid #626262",
             width: "fit-content",

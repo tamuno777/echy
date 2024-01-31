@@ -60,7 +60,7 @@
 }
 .courses {
   @media (max-width: 750px) {
-    display: none;
+    /* display: none; */
   }
 }
 @media (max-width: 750px) {

@@ -12,7 +12,7 @@
 }
 .sticker {
   @media (max-width: 640px) {
-    display: none;
+    /* display: none; */
   }
 }
 @media (max-width: 750px) {

@@ -11,8 +11,32 @@
   );
 }
 .sticker {
-  @media (max-width: 640px) {
-    /* display: none; */
+  @media only screen and (min-width: 768px) and (max-width:1000px) {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width:1000px) {
+  .project-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-content h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .project-content p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .glow {
+    display: block;
+    margin: 0 auto;
   }
 }
 @media (max-width: 750px) {
@@ -21,7 +45,7 @@
     justify-content: center;
     align-items: center;
   }
-  .project-content h1 {
+  .project-content h2 {
     font-size: 24px;
     display: flex;
     align-items: center;

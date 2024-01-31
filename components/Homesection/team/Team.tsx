@@ -24,14 +24,13 @@ const Team: React.FC<CarouselProps> = ({
   useEffect(() => {
     if (autoplay) {
       timeoutRef.current = setTimeout(() => {
-        const nextSlide = (currentSlide + 1) % slideCount;
-        setCurrentSlide(nextSlide);
+        setCurrentSlide((prevSlide) => (prevSlide + 1) % slideCount);
       }, interval);
     }
 
-    return () =>
-      clearTimeout(timeoutRef.current as unknown as number | undefined);
-  }, [autoplay, interval, slideCount]);
+    return () => clearTimeout(timeoutRef.current as unknown as number);
+  }, [autoplay, interval, slideCount, currentSlide]);
+
 
   const handlePrevClick = () => {
     const newSlide = currentSlide === 0 ? slideCount - 1 : currentSlide - 1;
@@ -61,7 +60,7 @@ const Team: React.FC<CarouselProps> = ({
         </h2>
         <p className="flex flex-wrap lg:w-[70%] text-gray-500 text-lexend text-base font-normal font-medium text-left leading-normal">
           Have questions, suggestions, or want to know more about our community?
-          We're here and eager to assist you! Whether you're seeking
+          We&apos;re here and eager to assist you! Whether you&apos;re seeking
           information, have feedback to share, or simply want to connect, our
           team is ready to help.
         </p>

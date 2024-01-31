@@ -1,4 +1,5 @@
-import {  snrPD } from "@/assets";
+import {  cs5, snrPD } from "@/assets";
+
 import { StaticImageData } from "next/image";
 
 export interface Item {
@@ -14,7 +15,7 @@ const teamData: Item[] = [
     description:"Snr Product Designer"
   },
   {
-    image: snrPD,
+    image: cs5,
     name: "Kingdom One",
     description:"Snr Frontend Developer"
   },

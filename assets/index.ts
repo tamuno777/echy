@@ -20,8 +20,10 @@ import facebookicon from "./facebook.png";
 import twittericon from "./twitter.png";
 import instaicon from "./insta.png";
 import menuIcon from "./menu.png"
+import cs5 from "./cs5.jpg"
 export {
   hero,
+  cs5,
   menuIcon,
   googleicon,
   twittericon,
